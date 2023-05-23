@@ -7,7 +7,9 @@ const NavBar = () => {
         <header className="container">
             <nav>
                 <ul className="navbar">
-                    <li>Home</li>
+                    <li>
+                        <NavLink to={"/"}>Home</NavLink>
+                    </li>
                     <li>
                         <NavLink to={"/categorias/1"}>
                             YEEZY 500
