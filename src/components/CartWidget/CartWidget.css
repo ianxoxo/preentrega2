@@ -1,0 +1,21 @@
+.img__container {
+    width: 32px;
+    height:32px;
+    position: relative;
+}
+
+.img__container img {
+    width: 90%;
+}
+
+.counter {
+    position: absolute;
+    bottom: 0;
+    padding:0.5em;
+    font-size:0.8em;
+    border-radius: 50px;
+    background: #333333;
+    color: #f2f2f2;
+    box-shadow:  16px 16px 38px #9d9d9d,
+                 -16px -16px 38px #ffffff;
+}

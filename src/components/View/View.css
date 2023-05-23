@@ -1,0 +1,9 @@
+.dark_mode {
+    background: #2e2e2e;
+    color: #f2f2f2;
+}
+
+.light_mode {
+    background: #f2f2f2;
+    color: #2e2e2e
+}

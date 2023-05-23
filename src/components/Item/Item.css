@@ -1,0 +1,20 @@
+.product_img{
+    width:100%;
+    max-width:500px;
+    margin-bottom:.5em;
+    border-radius:1.2em;
+}
+
+.card_product {
+    display:flex;
+    flex-flow:column wrap;
+    align-items:flex-start;
+}
+
+.btn { 
+    text-decoration:none;
+    color: #2e2e2e;
+    padding:1em;
+    margin-top:10px;
+    border:1px solid #2e2e2e
+}

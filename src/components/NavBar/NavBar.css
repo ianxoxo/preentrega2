@@ -1,0 +1,35 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom:0.5em;
+    border-bottom: 1px solid #2e2e2e
+}
+
+header > * {
+    width: 30%;
+}
+
+.container {
+    width:90%;
+    margin: 1em auto;
+}
+
+.navbar {
+    display:flex;
+    gap:2em;
+    text-decoration:none;
+    list-style:none;
+}
+
+li {
+    cursor:pointer;
+}
+
+.link, li > * {
+    text-decoration:none;
+    color: #2e2e2e;
+}
+
+
+

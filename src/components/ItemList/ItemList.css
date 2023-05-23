@@ -1,0 +1,10 @@
+.productContainer {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3em;
+}
+
+.productContainer > * {
+    min-width: 280px;
+    padding-top:0.5em;
+}

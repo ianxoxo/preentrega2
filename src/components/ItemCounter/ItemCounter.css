@@ -1,0 +1,28 @@
+.flex_button {
+    display:flex;
+    gap:0.8em;
+    border:1px solid #2e2e2e;
+    border-radius: 2em;
+    background: #2e2e2e;
+    padding:.5em .7em;
+    width:fit-content;
+}
+
+.flex_button > * {
+    color: #f2f2f2;
+}
+
+.flex_button button {
+    padding:0 .5em;
+    background:transparent;
+    border:none;
+    font-size:1.2em;
+    border-radius:.3em;
+    cursor:pointer;
+}
+
+.flex_button button:hover {
+    background: #f2f2f2;
+    color: #2e2e2e;
+    transition: all .3s ease-in;
+}
