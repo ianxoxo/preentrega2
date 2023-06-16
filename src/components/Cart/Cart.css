@@ -1,0 +1,36 @@
+.cart-flex {
+    display:flex;
+    flex-flow: column wrap;
+    gap:1em;
+    padding-top:0.5em;
+}
+
+.cart-flex a, .cart-flex button {
+    font-size:1rem;
+    font-family: 'Poppins', sans-serif;
+    color:#000000;
+    text-decoration: none;
+    border:1px solid #2e2e2e;
+    width:fit-content;
+    padding:1em;
+    cursor:pointer;
+}
+
+.cart-flex a:hover, .cart-flex button:hover{
+    color: #f2f2f2;
+    background: #2e2e2e;
+    transition: all 0.3s ease-in
+}
+
+.buttons {
+    display:flex;
+    gap:1em;
+}
+
+.total {
+    font-size:1.3rem;
+}
+
+.total p {
+    font-size:1rem;
+}

@@ -1,0 +1,54 @@
+.form {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5em;
+}
+
+.input {
+    display:flex;
+    flex-flow:column wrap;
+    width:50%;
+}
+
+.input > * {
+    background:inherit;
+    outline:none;
+}
+
+.input input {
+    border:1px solid #2f2f2f;
+    padding:0.5em;
+    border-radius:5px;
+}
+
+.cart-btn {
+    grid-column: 1;
+    margin:2em 0;
+}
+
+.productos {
+    display:flex;
+    flex-flow:column wrap;
+    gap:0.5em;
+    padding-bottom:0.5em;
+}
+
+.producto hr {
+    margin-top:0.5em;
+}
+
+.btn2 {
+    font-family:"Poppins", sans-serif
+}
+
+.total-container {
+    display:flex;
+    flex-flow:column wrap;
+    gap:0.5em;
+    margin-bottom:1em;
+}
+
+.error {
+    margin-top:1em;
+    color: #6b1e1e;
+}

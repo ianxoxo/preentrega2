@@ -1,0 +1,19 @@
+.detail {
+    display:flex;
+    flex-flow:column wrap;
+    text-align:center;
+    gap:0.5em;
+}
+
+.detail .link {
+    margin:3em auto;
+    padding:0.8em;
+    border:1px solid #2f2f2f;
+    width:fit-content;
+    transition: all 0.2s ease-in;
+}
+
+.detail .link:hover {
+    background: #2f2f2f;
+    color: #f2f2f2;
+}
